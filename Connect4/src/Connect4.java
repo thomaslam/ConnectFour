@@ -93,7 +93,6 @@ public class Connect4 extends JFrame
         }
         ActionListener listener = new MenuItemListener();
         mntmPlayerVsComp.addActionListener(listener);
-        //mntmPlayerVsComp.setEnabled(false); // to be implemented for AI stuff
         return mntmPlayerVsComp;
     }
 
